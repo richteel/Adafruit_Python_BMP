@@ -12,11 +12,11 @@ To install, download the library by clicking the download zip link to the right 
 
 ````
 
-## Installation - Python ##
+# Installation - Python
 
 sudo pip install git+git://github.com/richteel/Adafruit_Python_BMP.git
 
-## Installation - Python 3 ##
+# Installation - Python 3
 
 sudo pip3 install git+git://github.com/richteel/Adafruit_Python_BMP.git
 
