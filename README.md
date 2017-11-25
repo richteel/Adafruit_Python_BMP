@@ -5,22 +5,19 @@ Python library for accessing the BMP series pressure and temperature sensors lik
 
 Designed specifically to work with:
 
-- Adafruit BMP085/BMP180 pressure sensors ----> https://www.adafruit.com/products/1603
-- Adafruit BMP280 pressure sensors ----> https://www.adafruit.com/product/2651
+- Adafruit BMP085/BMP180 pressure sensors ----&gt; https://www.adafruit.com/products/1603
+- Adafruit BMP280 pressure sensors ----&gt; https://www.adafruit.com/product/2651
 
 To install, download the library by clicking the download zip link to the right and unzip the archive somewhere on your Raspberry Pi or Beaglebone Black.  Then execute the following command in the directory of the library:
 
-````
+## Installation - Python ##
 
-# Installation - Python
+<pre>sudo pip install git+git://github.com/richteel/Adafruit_Python_BMP.git</pre>
 
-sudo pip install git+git://github.com/richteel/Adafruit_Python_BMP.git
+## Installation - Python 3 ##
 
-# Installation - Python 3
+<pre>sudo pip3 install git+git://github.com/richteel/Adafruit_Python_BMP.git</pre>
 
-sudo pip3 install git+git://github.com/richteel/Adafruit_Python_BMP.git
-
-````
 
 Make sure you have internet access on the device so it can download the required dependencies.
 
