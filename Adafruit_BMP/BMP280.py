@@ -142,7 +142,7 @@ class BMP280(object):
 
         p = 1048576 - raw_pressure
         p = (((p << 31) - p2) * 3125) / p1
-        p1 = (self.cal_p9 * (int(p) >> 13) ** 2) >> 25
+        p1 = (self.cal_p9 * (int(p) >> 13) * (int(p) >> 13)) >> 25
         p2 = (self.cal_p8 * int(p)) >> 19
         p = ((int(p) + p1 + p2) >> 8) + ((self.cal_p7) << 4)
 
